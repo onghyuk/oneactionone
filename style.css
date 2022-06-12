@@ -61,7 +61,7 @@ a {
     grid-template-rows: repeat(2, minmax(30vh, 1fr));
     padding-top: 3%;
     height: 80%;
-
+    word-break: keep-all;
     font-family: ryuRegular;
 }
 
@@ -189,66 +189,66 @@ a {
 
     .p5{
     background-image: url("cartoon/1.jpg");
-    background-size: cover;
+    background-size: contain;
     }
 
     .p6{
         background-image: url("cartoon/5.jpg");
-        background-size: cover;
+        background-size: contain;
         }
 
         .p7{
             background-image: url("cartoon/6.jpg");
-            background-size: cover;
+            background-size: contain;
             }
 
             .p9{
                 background-image: url("cartoon/7.jpg");
-                background-size: cover;
+                background-size: contain;
                 }
 
                 .p10{
                     background-image: url("cartoon/8.jpg");
-                    background-size: cover;
+                    background-size: contain;
                     }
 
                     .p11{
                         background-image: url("cartoon/10.jpg");
-                        background-size: cover;
+                        background-size: contain;
                         }
                         
                             .p13{
                                 background-image: url("cartoon/11.jpg");
-                                background-size: cover;
+                                background-size: contain;
                                 }
                                 .p14{
                                     background-image: url("cartoon/12.jpg");
-                                    background-size: cover;
+                                    background-size: contain;
                                     }
                                     .p15{
                                         background-image: url("cartoon/17.jpg");
-                                        background-size: cover;
+                                        background-size: contain;
                                         }
                                         .p17{
                                             background-image: url("cartoon/14.jpg");
-                                            background-size: cover;
+                                            background-size: contain;
                                             }
                                             .p18{
                                                 background-image: url("cartoon/15.jpg");
-                                                background-size: cover;
+                                                background-size: contain;
                                                 }
                                                 .p19{
                                                     background-image: url("cartoon/16.jpg");
-                                                    background-size: cover;
+                                                    background-size: contain;
                                                     }
                                                     .p21{
                                                         background-image: url("cartoon/18.jpg");
-                                                        background-size: cover;
+                                                        background-size: contain;
                                                         }
 
                                                         .p22{
                                                             background-image: url("cartoon/19.jpg");
-                                                            background-size: cover;
+                                                            background-size: contain;
                                                             }
         
 
@@ -281,11 +281,11 @@ a {
         }
 
         .cartoon{
-            height: 105vw;
+            height: 103vw;
         }
 
         .aboutRightBottom{
-            height: 105vw;
+            height: 103vw;
         }
 
         .leftTop{
@@ -312,7 +312,7 @@ a {
         }
 
         .leftArrow, .rightArrow{
-            width: 5%;
+            width: 20%;
         }
 
         .Arrow{
