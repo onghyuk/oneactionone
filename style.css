@@ -1,0 +1,241 @@
+
+@font-face {
+    font-family: ryuUltraLight;
+    src: url(RyuGothic-UltraLight.woff);
+}
+
+@font-face {
+    font-family: ryuRegular;
+    src: url(RyuGothic-Regular.woff);
+}
+
+@font-face {
+    font-family: ryuExtraBold;
+    src: url(RyuGothic-ExtraBold.woff);
+}
+
+
+
+body{
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.center{
+    position: relative;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 1.5%;
+    height: 100%;
+}
+
+
+.header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 12%;
+}
+
+.cartoonContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 3%;
+    height: 80%;
+
+    font-family: ryuRegular;
+}
+
+
+.leftTop{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.rightTop{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.leftBottom{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+.rightBottom{
+    border: 1px solid black;
+
+}
+
+.p1{
+    background-image: url("cartoon/1.jpg");
+    background-size: cover;
+}
+
+.p2{
+    background-image: url("cartoon/2.jpg");
+    background-size: cover;
+}
+
+.p3{
+    background-image: url("cartoon/3.jpg");
+    background-size: cover;
+}
+
+.p4{
+    background-image: url("cartoon/4.jpg");
+    background-size: cover;
+}
+
+.cartoon{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.Arrow{
+    padding-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftArrow, .rightArrow{
+    width: 2%;
+}
+
+
+
+.two > .headtext {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.four > .headtext {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headtext{
+    width: 100%;
+}
+
+.title{
+    position: relative;
+    padding: 2%;
+    width: 20%;
+}
+
+.aboutRightBottom{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+
+    font-family: ryuExtraBold;
+}
+
+
+.maintext{
+  margin-left: auto;
+  margin-right: auto; 
+  text-align: center;
+}
+
+    .p5{
+    background-image: url("cartoon/1.jpg");
+    background-size: cover;
+    }
+
+    .p6{
+        background-image: url("cartoon/5.jpg");
+        background-size: cover;
+        }
+
+        .p7{
+            background-image: url("cartoon/6.jpg");
+            background-size: cover;
+            }
+
+           
+
+
+    @media screen and (max-width:700px) {
+        .wrapper{
+            height: 100%;
+        }
+
+        .container{
+            height: 100%;
+        }
+        
+        .center{
+            position: relative;
+            padding: 3%;
+            height: 100%;
+        }
+
+        .cartoonContainer{
+            display: block;
+            height: 100%;
+            padding-bottom: 3%;
+        }
+
+        .logo{
+            width: 20%;
+        }
+
+        .cartoon{
+            height: 53vh;
+        }
+
+        .aboutRightBottom{
+            height: 53vh;
+        }
+
+        .leftTop{
+            border-top: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+
+        .rightTop{
+            border-top: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+
+        .leftBottom{
+            border-top: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-bottom: 0px;
+        }
+
+        .title{
+            width: 25%;
+        }
+    }
