@@ -57,8 +57,8 @@ a {
 
 .cartoonContainer{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(30vh, 1fr));
+    grid-template-rows: repeat(2, minmax(30vh, 1fr));
     padding-top: 3%;
     height: 80%;
 
@@ -119,12 +119,19 @@ a {
 .Arrow{
     padding-top: 3%;
     width: 100%;
+    height: 10%;
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 
 .leftArrow, .rightArrow{
-    width: 2%;
+    width: 20%;
+}
+
+.seeMore{
+    font-family: ryuExtraBold;
+    text-decoration: underline;
 }
 
 
@@ -143,13 +150,26 @@ a {
     width: 100%;
 }
 
+
 .title{
     position: relative;
     padding: 2%;
     width: 20%;
 }
 
-.aboutRightBottom{
+.aboutTitle{
+    position: relative;
+    padding: 2%;
+    width: 30%;
+}
+.aboutTitle2{
+    position: relative;
+    padding: 2%;
+    width: 26%;
+}
+
+
+.aboutRightBottom, .aboutLeftBottom{
     display: flex;
     align-content: center;
     flex-wrap: wrap;
@@ -163,6 +183,8 @@ a {
   margin-left: auto;
   margin-right: auto; 
   text-align: center;
+  background-color: white;
+  
 }
 
     .p5{
@@ -179,6 +201,56 @@ a {
             background-image: url("cartoon/6.jpg");
             background-size: cover;
             }
+
+            .p9{
+                background-image: url("cartoon/7.jpg");
+                background-size: cover;
+                }
+
+                .p10{
+                    background-image: url("cartoon/8.jpg");
+                    background-size: cover;
+                    }
+
+                    .p11{
+                        background-image: url("cartoon/10.jpg");
+                        background-size: cover;
+                        }
+                        
+                            .p13{
+                                background-image: url("cartoon/11.jpg");
+                                background-size: cover;
+                                }
+                                .p14{
+                                    background-image: url("cartoon/12.jpg");
+                                    background-size: cover;
+                                    }
+                                    .p15{
+                                        background-image: url("cartoon/17.jpg");
+                                        background-size: cover;
+                                        }
+                                        .p17{
+                                            background-image: url("cartoon/14.jpg");
+                                            background-size: cover;
+                                            }
+                                            .p18{
+                                                background-image: url("cartoon/15.jpg");
+                                                background-size: cover;
+                                                }
+                                                .p19{
+                                                    background-image: url("cartoon/16.jpg");
+                                                    background-size: cover;
+                                                    }
+                                                    .p21{
+                                                        background-image: url("cartoon/18.jpg");
+                                                        background-size: cover;
+                                                        }
+
+                                                        .p22{
+                                                            background-image: url("cartoon/19.jpg");
+                                                            background-size: cover;
+                                                            }
+        
 
            
 
@@ -209,11 +281,11 @@ a {
         }
 
         .cartoon{
-            height: 53vh;
+            height: 105vw;
         }
 
         .aboutRightBottom{
-            height: 53vh;
+            height: 105vw;
         }
 
         .leftTop{
@@ -237,5 +309,13 @@ a {
 
         .title{
             width: 25%;
+        }
+
+        .leftArrow, .rightArrow{
+            width: 5%;
+        }
+
+        .Arrow{
+            justify-content: space-between;
         }
     }
