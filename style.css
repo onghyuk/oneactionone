@@ -129,12 +129,12 @@ a {
 
 
 
-.two > .headtext {
+.p2 > .headtext {
     display: flex;
     justify-content: flex-end;
 }
 
-.four > .headtext {
+.p4 > .headtext {
     display: flex;
     justify-content: flex-end;
 }
