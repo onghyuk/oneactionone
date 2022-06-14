@@ -345,7 +345,7 @@ a {
                     margin-top: 3%;
                 }
 
-    @media  screen and (max-width:2600px) and (min-width: 701px) {
+    @media  screen and (max-width:1900px) and (min-width: 701px) {
         .container{
         width: 100vw;
         height: 100vh;
