@@ -35,7 +35,7 @@ a {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: minmax(3%, 30%) minmax(75vh,1fr) minmax(3%, 30%);
+    grid-template-columns: minmax(3%, 30%) minmax(80vh,1fr) minmax(3%, 30%);
 }
 
 .center{
@@ -188,7 +188,7 @@ a {
   margin-left: auto;
   margin-right: auto; 
   text-align: center;
-  background-color: white;
+  
   
 }
 
@@ -264,6 +264,7 @@ a {
                     padding-top: 3%;
                     font-family: ryuRegular;
                     line-height: 1em;
+                    font-size: 1rem;
                 }
 
                 .aTitle{
