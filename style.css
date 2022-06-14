@@ -35,7 +35,7 @@ a {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: minmax(3%, 30%) minmax(80vh,1fr) minmax(3%, 30%);
+    grid-template-columns: minmax(3%, 29%) minmax(80vh,1fr) minmax(3%, 29%);
 }
 
 .center{
@@ -68,6 +68,7 @@ a {
     height: 80%;
     word-break: keep-all;
     font-family: ryuRegular;
+    font-size: 1rem;
 }
 
 
