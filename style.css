@@ -301,6 +301,7 @@ a {
                     grid-template-columns: 20% 20% 1fr;
                     gap:3%;
                     word-break: keep-all;
+                    line-height: 1.5em;
                 }
 
                 .aList{
@@ -335,6 +336,24 @@ a {
                     font-size: 0.9em;
                 }
 
+                .link{
+                    text-decoration: underline;
+                }
+
+                .border{
+                    border-top: 1px solid black;
+                    margin-top: 3%;
+                }
+
+    @media  screen and (max-width:2600px) and (min-width: 701px) {
+        .container{
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: minmax(3%, 25%) minmax(80vh,1fr) minmax(3%, 25%);
+    }
+        
+    }
     @media screen and (max-width:700px) {
         .wrapper{
             height: 100%;
