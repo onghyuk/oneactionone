@@ -352,6 +352,10 @@ a {
         display: grid;
         grid-template-columns: minmax(3%, 25%) minmax(80vh,1fr) minmax(3%, 25%);
     }
+
+    .cartoonContainer{
+        font-size: 0.8rem;
+    }
         
     }
     @media screen and (max-width:700px) {
