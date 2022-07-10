@@ -35,7 +35,7 @@ a {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: minmax(3%, 29%) minmax(80vh,1fr) minmax(3%, 29%);
+    grid-template-columns: minmax(3%, 30%) minmax(75vh,1fr) minmax(3%, 30%);
 }
 
 .center{
@@ -326,7 +326,7 @@ a {
                 }
 
                 .aList{
-                    padding-top: 1%;
+                    padding-top: 10%;
                 }
 
                 .poster{
