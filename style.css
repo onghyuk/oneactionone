@@ -379,7 +379,7 @@ a {
         width: 100vw;
         height: 100vh;
         display: grid;
-        grid-template-columns: minmax(3%, 25%) minmax(80vh,1fr) minmax(3%, 25%);
+        grid-template-columns: minmax(3%, 33%) minmax(77vh,1fr) minmax(3%, 33%);
     }
 
     .cartoonContainer{
