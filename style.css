@@ -98,21 +98,25 @@ a {
 .p1{
     background-image: url("cartoon/1.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .p2{
     background-image: url("cartoon/2.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .p3{
     background-image: url("cartoon/3.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .p4{
     background-image: url("cartoon/4.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .cartoon{
@@ -171,7 +175,7 @@ a {
 .aboutTitle2{
     position: relative;
     padding: 2%;
-    width: 26%;
+    width: 30%;
 }
 
 
@@ -196,65 +200,79 @@ a {
     .p5{
     background-image: url("cartoon/1.jpg");
     background-size: contain;
+    background-repeat: no-repeat;
     }
 
     .p6{
         background-image: url("cartoon/5.jpg");
         background-size: contain;
+        background-repeat: no-repeat;
         }
 
         .p7{
             background-image: url("cartoon/6.jpg");
             background-size: contain;
+            background-repeat: no-repeat;
             }
 
             .p9{
                 background-image: url("cartoon/7.jpg");
                 background-size: contain;
+                background-repeat: no-repeat;
                 }
 
                 .p10{
                     background-image: url("cartoon/8.jpg");
                     background-size: contain;
+                    background-repeat: no-repeat;
                     }
 
                     .p11{
                         background-image: url("cartoon/10.jpg");
                         background-size: contain;
+                        background-repeat: no-repeat;
                         }
                         
                             .p13{
                                 background-image: url("cartoon/11.jpg");
                                 background-size: contain;
+                                background-repeat: no-repeat;
                                 }
                                 .p14{
                                     background-image: url("cartoon/12.jpg");
                                     background-size: contain;
+                                    background-repeat: no-repeat;
                                     }
                                     .p15{
                                         background-image: url("cartoon/17.jpg");
                                         background-size: contain;
+                                        background-repeat: no-repeat;
                                         }
                                         .p17{
                                             background-image: url("cartoon/14.jpg");
                                             background-size: contain;
+                                            background-repeat: no-repeat;
                                             }
                                             .p18{
                                                 background-image: url("cartoon/15.jpg");
                                                 background-size: contain;
+                                                background-repeat: no-repeat;
                                                 }
                                                 .p19{
                                                     background-image: url("cartoon/16.jpg");
                                                     background-size: contain;
+                                                    background-repeat: no-repeat;
                                                     }
                                                     .p21{
                                                         background-image: url("cartoon/18.jpg");
                                                         background-size: contain;
+                                                        background-repeat: no-repeat;
                                                         }
 
                                                         .p22{
                                                             background-image: url("cartoon/19.jpg");
                                                             background-size: contain;
+                                                            background-repeat: no-repeat;
                                                             }
         
 
@@ -274,7 +292,10 @@ a {
                     display: flex;
                     justify-content: space-between;
                     align-items: flex-end;
-                    text-align: right;
+                    text-align: left;
+                    word-break: keep-all;
+                    line-height: 1.5em;
+                    
                 }
 
                 .subPageTitle{
@@ -305,7 +326,7 @@ a {
                 }
 
                 .aList{
-                    padding-top: 3%;
+                    padding-top: 1%;
                 }
 
                 .poster{
@@ -342,6 +363,14 @@ a {
 
                 .border{
                     border-top: 1px solid black;
+                    margin-top: 3%;
+                }
+
+                .letterTitle{
+                    display: flex;
+                    justify-content: space-between;
+                    border-top: 3px solid black;
+                    border-bottom: 3px solid black;
                     margin-top: 3%;
                 }
 
