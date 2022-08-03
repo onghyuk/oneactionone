@@ -337,6 +337,13 @@ a {
                     width: 100%;
                 }
 
+                .smallImg{
+                    width: 60%;
+                }
+
+                .tinyImg{
+                    width: 30%;
+                }
                 .subPageBody{
                     font-family: ryuRegular;
                     word-break: keep-all;
@@ -371,7 +378,7 @@ a {
                     justify-content: space-between;
                     border-top: 3px solid black;
                     border-bottom: 3px solid black;
-                    margin-top: 3%;
+                    margin-top: 0.5%;
                 }
 
     @media  screen and (max-width:1900px) and (min-width: 701px) {
