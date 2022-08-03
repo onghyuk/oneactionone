@@ -484,4 +484,8 @@ a {
         .subPageContainer{
             padding-bottom: 5%;
         }
+
+        .letterTitle{
+            margin-top: 3%;
+        }
     }
