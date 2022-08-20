@@ -376,12 +376,14 @@ a {
 
                 .letterTitle{
                     display: flex;
-                    justify-content: space-between;
+                    justify-content:space-between;
+                    
                     flex-wrap: wrap;
                     border-top: 3px solid black;
                     border-bottom: 3px solid black;
                     margin-top: 0.5%;
                     line-height: 1.5em;
+                    
                 }
 
     @media  screen and (max-width:1900px) and (min-width: 701px) {
