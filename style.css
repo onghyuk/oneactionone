@@ -338,12 +338,24 @@ a {
                 }
 
                 .smallImg{
-                    width: 60%;
+                    width: 50%;
+                }
+
+                .smallTwoImg{
+                    width:40%;
+                    margin-left: 30%;
                 }
 
                 .tinyImg{
                     width: 20%;
                     margin-left: 40%;
+                }
+
+                .gridContainer{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 1%;
+                    margin-bottom: 1%;
                 }
                 .subPageBody{
                     font-family: ryuRegular;
