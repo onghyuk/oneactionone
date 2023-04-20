@@ -54,6 +54,36 @@ a {
 }
 
 
+.lightText{
+    font-family: ryuUltraLight;
+
+
+
+}
+
+
+.thickText{
+    font-family: ryuExtraBold;
+
+
+
+}
+
+.lineHeight17{
+    line-height: 1.7em;
+
+
+
+}
+
+
+.originalText{
+    font-size: 1.2em;
+
+
+
+
+}
 
 .logo{
     width: 12%;
@@ -336,6 +366,14 @@ a {
                 .img{
                     width: 100%;
                 }
+
+
+                .smallThreeImg{
+                    width: 100%;
+                    margin-left: -30vw;
+                    
+                }
+
 
                 .smallImg{
                     width: 50%;
