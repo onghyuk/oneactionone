@@ -389,22 +389,28 @@ a {
                     margin-left: 40%;
                 }
 
+                .right{
+                    text-align: right;
+                }
+
                 .gridContainer{
                     display: grid;
                     grid-template-columns: 1fr 1fr;
                     gap: 1%;
                     margin-bottom: 1%;
                 }
+
                 .subPageBody{
                     font-family: ryuRegular;
                     word-break: keep-all;
+                    line-height: 2.2em;
                     
                 }
 
                 .subPageBody > p{
                     max-width: 60em;
                     font-size: 1.2em;
-                    line-height: 1.5em;
+                   
                 }
 
                 .quote{
@@ -531,6 +537,7 @@ a {
         .subPageBody > p{
             max-width: 60em;
             font-size: 1em;
+            line-height: 1.8em;
           
         }
 
