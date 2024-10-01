@@ -393,6 +393,10 @@ a {
                     text-align: right;
                 }
 
+                .centeredText{
+                    text-align: center;
+                }
+
                 .gridContainer{
                     display: grid;
                     grid-template-columns: 1fr 1fr;
@@ -412,6 +416,8 @@ a {
                     font-size: 1.2em;
                    
                 }
+
+                
 
                 .quote{
                     padding-left: 5%;
