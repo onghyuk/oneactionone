@@ -449,6 +449,19 @@ a {
                     
                 }
 
+                .footnote{
+                    font-size: 0.8em;
+                }
+
+                .ForDesktopLeedong{
+                    display: block;
+                }
+
+                .subPageBodyForMobileLeedong{
+                    display: none;
+                }
+              
+
     @media  screen and (max-width:1900px) and (min-width: 701px) {
         .container{
         width: 100vw;
@@ -554,5 +567,19 @@ a {
 
         .letterTitle{
             margin-top: 3%;
+     
+     
+        }
+
+        .ForDesktopLeedong{
+            display: none;
+        }
+        .subPageBodyForMobileLeedong{
+            display: block;
+        }
+
+        .right{
+            text-align: right;
+            font-size: 0.8em;
         }
     }
