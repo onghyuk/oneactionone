@@ -460,6 +460,10 @@ a {
                 .subPageBodyForMobileLeedong{
                     display: none;
                 }
+
+                .italic{
+                    font-style: italic;
+                }
               
 
     @media  screen and (max-width:1900px) and (min-width: 701px) {
