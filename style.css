@@ -389,23 +389,36 @@ a {
                     margin-left: 40%;
                 }
 
+                .right{
+                    text-align: right;
+                    font-size: 8em;
+                }
+
+                .centeredText{
+                    text-align: center;
+                }
+
                 .gridContainer{
                     display: grid;
                     grid-template-columns: 1fr 1fr;
                     gap: 1%;
                     margin-bottom: 1%;
                 }
+
                 .subPageBody{
                     font-family: ryuRegular;
                     word-break: keep-all;
+                    line-height: 2.2em;
                     
                 }
 
                 .subPageBody > p{
                     max-width: 60em;
                     font-size: 1.2em;
-                    line-height: 1.5em;
+                   
                 }
+
+                
 
                 .quote{
                     padding-left: 5%;
@@ -435,6 +448,23 @@ a {
                     line-height: 1.5em;
                     
                 }
+
+                .footnote{
+                    font-size: 0.8em;
+                }
+
+                .ForDesktopLeedong{
+                    display: block;
+                }
+
+                .subPageBodyForMobileLeedong{
+                    display: none;
+                }
+
+                .italic{
+                    font-style: italic;
+                }
+              
 
     @media  screen and (max-width:1900px) and (min-width: 701px) {
         .container{
@@ -531,6 +561,7 @@ a {
         .subPageBody > p{
             max-width: 60em;
             font-size: 1em;
+            line-height: 1.8em;
           
         }
 
@@ -540,5 +571,19 @@ a {
 
         .letterTitle{
             margin-top: 3%;
+     
+     
+        }
+
+        .ForDesktopLeedong{
+            display: none;
+        }
+        .subPageBodyForMobileLeedong{
+            display: block;
+        }
+
+        .right{
+            text-align: right;
+            font-size: 0.8em;
         }
     }
