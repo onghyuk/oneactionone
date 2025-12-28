@@ -1,16 +1,16 @@
 import { supabase } from "./supabase.js";
 
 const PAGE_PATH = location.pathname;     // 페이지별 스레드 분리 키
-const NICK_MIN = 2;
+const NICK_MIN = 1;
 const NICK_MAX = 20;
-const MAX_LEN = 500;
+const MAX_LEN = 50000;
 
 const root = document.getElementById("comments");
 if (!root) throw new Error("#comments element not found.");
 
 root.innerHTML = `
   <div class="comments-wrap">
-    <h3>Comments</h3>
+    <h3>댓글</h3>
 
     <div class="comments-form">
       <input id="c_nick" placeholder="닉네임" minlength="${NICK_MIN}" maxlength="${NICK_MAX}" required />
