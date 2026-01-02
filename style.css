@@ -468,8 +468,8 @@ a {
                 /* --- Comments (Supabase) - minimal base styles --- */
 
 #comments {
-    margin-top: 28px;
-    margin-bottom: 28px;
+    margin-top: 3vh;
+    margin-bottom: 10vh;
   }
   
   /* Wrapper */
