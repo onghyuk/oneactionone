@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>one action one</title>
     <link href="../style.css" rel="stylesheet">
+    <script src="../js.js"></script>
     
 </head>
 <body>
@@ -29,7 +30,21 @@
                    </div>
                    <div class="subPageBody">
                         
+                     <div id="pwOverlay" class="pwOverlay">
+                    <div class="pwModal">
+                    <div class="pwTitle">게시글에 1천자 이상의 댓글을 달거나, 1만원의 구독료를 지불하시면 비밀번호가 제공됩니다.</div>
+                    <div class="pwDesc">비밀번호를 입력하면 본문이 열립니다.</div>
 
+                    <div class="pwRow">
+                     <input type="password" id="pw" class="pwInput" placeholder="password" autocomplete="off">
+                     <button type="button" class="pwBtn" onclick="unlock()">Unlock</button>
+                     </div>
+
+                    <div id="pwError" class="pwError" style="display:none;">비밀번호가 틀렸습니다.</div>
+                    </div>
+                    </div>
+                        <div id="blurContent" class="locked">
+                       <p>
                     <p>
                         <b># 1 상상과 장소</b>
                         <br>
@@ -98,7 +113,7 @@
                   
                 </div>
                 
-                 <div id="comments"></div>   
+                                <div id="comments"></div>   
                                     <script type="module" src="../comments/comments.js"></script>
             </div>
             <div class="left"></div>

@@ -415,9 +415,11 @@ a {
                 .subPageBody > p{
                     max-width: 60em;
                     font-size: 1.2em;
-                   
                 }
 
+                .subPageBody {
+                    font-size: 1.2em;
+                }
                 
 
                 .quote{
@@ -594,44 +596,88 @@ a {
   }
   
 
-                                                #blurContent.locked {
-                                            filter: blur(8px);
-                                            user-select:none;
+                                              /* blurContent 잠금 */
+                                                #blurContent.locked{
+                                                filter: blur(8px);
+                                                user-select: none;
+                                                pointer-events: none;
                                                 }
-                                                #pwBox{
-                                                text-align:center;
-                                                margin:60px 0 40px 0;
-                                            }
 
-                                            #pwBox input{
-                                                width:220px;
-                                                padding:10px 14px;
-                                                border:1px solid #bbb;
-                                                border-radius:20px;
-                                                outline:none;
-                                                font-size:14px;
-                                                transition:all .2s ease;
-                                            }
+                                                /* Overlay */
+                                                .pwOverlay{
+                                                position: fixed;
+                                                inset: 0;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                padding: 24px;
+                                                background: rgba(255,255,255,0.72);
+                                                backdrop-filter: blur(6px);
+                                                z-index: 9999;
+                                                }
 
-                                            #pwBox input:focus{
-                                                border-color:#000;
-                                            }
+                                                /* Modal */
+                                                .pwModal{
+                                                width: min(420px, 100%);
+                                                border: 1px solid rgba(0,0,0,0.18);
+                                                border-radius: 18px;
+                                                padding: 18px 18px 16px 18px;
+                                                background: rgba(255,255,255,0.9);
+                                                box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+                                                }
 
-                                            #pwBox button{
-                                                margin-left:10px;
-                                                padding:10px 18px;
-                                                border:1px solid #000;
-                                                background:#fff;
-                                                border-radius:20px;
-                                                cursor:pointer;
-                                                font-size:14px;
-                                                transition:all .2s ease;
-                                            }
+                                                .pwTitle{
+                                                font-size: 14px;
+                                                letter-spacing: 0.02em;
+                                                margin-bottom: 6px;
+                                                }
 
-                                            #pwBox button:hover{
-                                                background:#000;
-                                                color:#fff;
-                                            }
+                                                .pwDesc{
+                                                font-size: 12px;
+                                                color: rgba(0,0,0,0.55);
+                                                margin-bottom: 12px;
+                                                }
+
+                                                .pwRow{
+                                                display: flex;
+                                                gap: 10px;
+                                                }
+
+                                                .pwInput{
+                                                flex: 1;
+                                                padding: 10px 14px;
+                                                border: 1px solid rgba(0,0,0,0.22);
+                                                border-radius: 999px;
+                                                outline: none;
+                                                font-size: 14px;
+                                                background: #fff;
+                                                }
+
+                                                .pwInput:focus{
+                                                border-color: rgba(0,0,0,0.6);
+                                                }
+
+                                                .pwBtn{
+                                                padding: 10px 16px;
+                                                border: 1px solid rgba(0,0,0,0.7);
+                                                background: #fff;
+                                                border-radius: 999px;
+                                                cursor: pointer;
+                                                font-size: 14px;
+                                                transition: all .2s ease;
+                                                }
+
+                                                .pwBtn:hover{
+                                                background: #000;
+                                                color: #fff;
+                                                }
+
+                                                .pwError{
+                                                margin-top: 10px;
+                                                font-size: 12px;
+                                                color: rgba(200,0,0,0.8);
+                                                }
+
 
 
     @media  screen and (max-width:1900px) and (min-width: 701px) {
@@ -754,4 +800,16 @@ a {
             text-align: right;
             font-size: 0.8em;
         }
+
+         #pwBox input{
+                                                width: 55vw;
+                                                padding:10px 14px;
+                                                border:1px solid #bbb;
+                                                border-radius:20px;
+                                                outline:none;
+                                                font-size:1em;
+                                                transition:all .2s ease;
+                                            }
     }
+
+
