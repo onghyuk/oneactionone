@@ -594,6 +594,46 @@ a {
   }
   
 
+                                                #blurContent.locked {
+                                            filter: blur(8px);
+                                            user-select:none;
+                                                }
+                                                #pwBox{
+                                                text-align:center;
+                                                margin:60px 0 40px 0;
+                                            }
+
+                                            #pwBox input{
+                                                width:220px;
+                                                padding:10px 14px;
+                                                border:1px solid #bbb;
+                                                border-radius:20px;
+                                                outline:none;
+                                                font-size:14px;
+                                                transition:all .2s ease;
+                                            }
+
+                                            #pwBox input:focus{
+                                                border-color:#000;
+                                            }
+
+                                            #pwBox button{
+                                                margin-left:10px;
+                                                padding:10px 18px;
+                                                border:1px solid #000;
+                                                background:#fff;
+                                                border-radius:20px;
+                                                cursor:pointer;
+                                                font-size:14px;
+                                                transition:all .2s ease;
+                                            }
+
+                                            #pwBox button:hover{
+                                                background:#000;
+                                                color:#fff;
+                                            }
+
+
     @media  screen and (max-width:1900px) and (min-width: 701px) {
         .container{
         width: 100vw;
