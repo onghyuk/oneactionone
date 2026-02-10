@@ -774,13 +774,13 @@ a {
 
         .subPageBody > p{
             max-width: 60em;
-            font-size: 1em;
+            font-size: 0.9em;
             line-height: 1.8em;
           
         }
 
          .subPageBody {
-                    font-size: 1em;
+                    font-size: 0.9em;
                 }
 
         .subPageContainer{
